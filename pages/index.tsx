@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   const [stageD, setStageD] = useState("2D");
   const video_links = [
     [
-      "하영서현",
+      "하영지민",
       "https://www.youtube.com/playlist?list=PLCF1IDqY6pqD_AidcfLNEp6c7v40ip_Ds",
     ],
     [
