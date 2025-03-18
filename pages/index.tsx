@@ -47,14 +47,14 @@ const Home: NextPage = () => {
           </a>
         </div>
       </div> */}
-      {/* <div className="grid gap-4 mx-10">
+      <div className="grid gap-4 mx-10">
         <h3 className="text-xl">연습일지</h3>
         <div className="flex flex-col gap-2 text-center mx-4">
-          <a href="https://drive.google.com/drive/folders/1lKqVlZ60x-LTDZOUi4GW33u2RV3J3Twk?usp=drive_link" className="border py-2">
+          <a href="https://drive.google.com/drive/folders/1JOUhVaZ0szFSo6mHoDIsi6fSp7SGRRDJ?usp=drive_link" className="border py-2">
             들어가기
           </a>
         </div>
-      </div> */}
+      </div>
       {/* <div className="grid gap-4 mx-10">
         <h3 className="text-xl">사진 드라이브</h3>
         <div className="flex flex-col gap-2 text-center mx-4">
