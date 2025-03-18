@@ -8,8 +8,6 @@ import { Navigation, Pagination } from "swiper/modules"; // Swiper 모듈
 import Image from "next/image";
 
 const Home: NextPage = () => {
-  const [copied, setCopied] = useState(false);
-  const [stageD, setStageD] = useState("2D");
   const video_links = [
     [
       "하영지민",
@@ -51,6 +49,14 @@ const Home: NextPage = () => {
         <h3 className="text-xl">연습일지</h3>
         <div className="flex flex-col gap-2 text-center mx-4">
           <a href="https://drive.google.com/drive/folders/1JOUhVaZ0szFSo6mHoDIsi6fSp7SGRRDJ?usp=drive_link" className="border py-2">
+            들어가기
+          </a>
+        </div>
+      </div>
+      <div className="grid gap-4 mx-10">
+        <h3 className="text-xl">대본</h3>
+        <div className="flex flex-col gap-2 text-center mx-4">
+          <a href="https://drive.google.com/drive/folders/11I9Q8gPGZBEkL1LD_049SBi4uJB4sy0L?usp=drive_link" className="border py-2">
             들어가기
           </a>
         </div>
